@@ -45,3 +45,64 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 # React_Redux_Typescript_Crud_Auth
+
+
+
+
+backkk django 
+
+
+Django Backend Setup
+This repository contains the backend code for a Django-based application. Below are the steps to set up the Django backend on your local machine.
+
+Prerequisites
+Before you start, make sure you have the following installed on your system:
+
+Python (https://www.python.org/downloads/)
+pip (Python package manager)
+Installation
+Install Django:
+bash
+Copy code
+pip install django
+Clone the repository:
+bash
+Copy code
+git clone https://github.com/your-username/django-backend.git
+cd django-backend
+Set up a virtual environment (optional but recommended):
+bash
+Copy code
+python -m venv venv
+Activate the virtual environment:
+On Windows:
+bash
+Copy code
+venv\Scripts\activate
+On macOS and Linux:
+bash
+Copy code
+source venv/bin/activate
+Install dependencies:
+bash
+Copy code
+pip install -r requirements.txt
+Configuration
+Create a .env file in the root of the project directory with the following content:
+makefile
+Copy code
+SECRET_KEY=your_django_secret_key
+DEBUG=True
+ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
+Make sure to replace your_django_secret_key with a secure random string that will be used by Django to sign cookies and other security-related features.
+
+Configure the database:
+
+By default, this backend is set up to use SQLite as the database. If you want to use a different database, update the DATABASES setting in the settings.py file accordingly.
+Running the Server
+To start the development server, run the following command:
+
+bash
+Copy code
+python manage.py runserver
+
